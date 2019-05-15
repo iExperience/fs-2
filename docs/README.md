@@ -687,7 +687,10 @@ dash-board.component.html
 </div>
 ```
 
-### Using Bootstrap UI in Dash-Board Component 
+## Using Bootstrap UI in Dash-Board Component 
+
+###  Bootstrap styled Dash-Board Component 
+
 dash-board.component.html
 ```html
 <div>
