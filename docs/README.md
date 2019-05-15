@@ -183,7 +183,7 @@ app.component.html
 
 ## Bootstrap
 
-### Installing Bootsrap
+### Installing Bootstrap
 
 cd to project root directory
 ```bash
