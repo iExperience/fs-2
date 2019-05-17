@@ -1,30 +1,30 @@
-# iXperience Full Stack 2019 - Day 4
+# iXperience Full Stack 2019 - Day 2
 
 [[toc]]
 
-## Angular
+## Ionic
 
 ### Installation
 
 Enter in command terminal (make sure you have the lastest version of node or >v8)
 ```bash
-npm install -g @angular/cli
+npm install -g @ionic/cli
 ```
 
-## Angular CLI
+## Ionic CLI
 
 ### Version
 
-First check the version of Angular you have just installed
+First check the version of Ionic you have just installed
 ```bash
-ng --version
+ionic --version
 ```
 
 ### Creating project
 
 Enter in command terminal
 ```bash
-ng new name-of-your-app
+ionic new name-of-your-app
 ```
 
 ### Run app
