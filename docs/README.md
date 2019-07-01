@@ -64,7 +64,7 @@ DOM JS
 main.js
 ```js
 // Single element selectors:
-console.log(document.getElementByID("myInput"));
+console.log(document.getElementById("my-form"));
 console.log(document.querySelector('.item'));
 
 //Multilpe element selector:
@@ -72,8 +72,8 @@ console.log(document.querySelectorAll('.item')); //Recomende (Newest)
 console.log(document.getElementsByTagName('li'));
 console.log(document.getElementsByClassName('item'));
 
-const items = document.querySelector('.item');
-
+const items = document.querySelectorAll('.item');
+console.log(items);
 items.forEach(item=>{
   console.log(item);
 });
@@ -83,7 +83,7 @@ const ul = document.querySelector('.items');
 // ul.remove();
 // ul.lastElementChild.remove();
 ul.firstElementChild.textContent = 'Hello';
-ul.children[1].innerText = 'Brad';
+ul.children[1].innerText = 'Byron';
 ul.lastElementChild.innerHTML = '<h1>Hello</h1>';
 
 
